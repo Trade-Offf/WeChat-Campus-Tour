@@ -1,0 +1,32 @@
+<import src="../../utils/wxParse-master/wxParse/wxParse.wxml"/>
+
+<view>
+    <swiper class="slide" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}">
+        <swiper-item wx:for="{{imgUrls}}" wx:key="true">
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+    </swiper>
+
+    <!--地图导航-->
+<view class='zust_go'>
+  <navigator class='_zust_go' open-type='navigate' url='../map/map' >
+      <view>地 图</view>
+      <view>跳 转</view>
+  </navigator>
+</view>
+<view class='zust_text'>
+  <div>
+    <text class='title'>{{schoolName}}</text>
+  </div>
+
+  <div>
+  <text class="title2">{{englishName}}</text>
+  </div>
+
+  <div class="artical">
+  <template is="wxParse" data="{{wxParseData:content.nodes}}" />
+  </div>
+
+</view>
+</view>

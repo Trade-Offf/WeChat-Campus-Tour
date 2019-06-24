@@ -1,0 +1,58 @@
+@import "../../utils/wxParse-master/wxParse/wxParse.wxss";
+.slide{
+  width: 750rpx;
+  height: 500rpx; 
+}
+
+.slide-image{
+  width: 750rpx;
+  height: 500rpx;
+}
+
+/*地图导航*/
+.zust_go{
+   margin-top: -75rpx;
+}
+._zust_go{
+  position: relative;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%; /*控制圆形*/
+  font-size: 30rpx;
+  background:rgb(241, 173, 9);
+  color:black;
+  margin-left: 570rpx;
+  font-family: "微软雅黑";
+/*文字水平垂直居中*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.zust_text{
+  width: 90%;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+.title{
+  display: flex;
+  margin-left: 10rpx;
+  font-size: 50rpx;
+  color: rgb(241, 173, 9);
+  font-family:  Microsoft Yahei
+}
+
+.title2{
+  margin-left: 10rpx;
+  display: block;
+  font-size: 15px;
+  color: rgb(241, 173, 9);
+  opacity: 0.5;
+}
+.artical{
+
+  color: rgb(24, 20, 18);
+  font-family:  Microsoft Yahei
+}

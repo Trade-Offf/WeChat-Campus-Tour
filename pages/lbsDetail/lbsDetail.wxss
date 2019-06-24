@@ -1,0 +1,58 @@
+@import "../../utils/wxParse-master/wxParse/wxParse.wxss";
+/* pages/lbsDetail/lbsDetail.wxss */
+.slide{
+  width: 750rpx;
+  height: 500rpx; 
+}
+
+.slide-image{
+  width: 750rpx;
+  height: 500rpx;
+}
+
+.intro-title {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-info{
+  background-color: rgba(248,248,248,.3);
+}
+
+.padding-leftRight {
+  padding: 0 40rpx;
+}
+
+.intro-title-text {
+  padding: 50rpx 0 ;
+  line-height: 60rpx;
+  font-size: 70rpx;
+  font: bold;
+  color:rgb(241, 173, 9);
+}
+
+.intro-title-subtext{
+  padding: 49rpx 10rpx ;
+  line-height: 60rpx;
+  font-size: 35rpx;
+  font: bold;
+  color:rgb(241, 173, 9);
+}
+
+.intro-title-logo {
+  position: absolute;
+  right: 0;
+  top: 35rpx;
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.intro-main {
+  padding: 10rpx 0 40rpx 0;
+  line-height: 48rpx;
+  font-size: 30rpx;
+  font-weight: 300;
+  color: rgb(24, 20, 18);
+  text-align: justify;
+}

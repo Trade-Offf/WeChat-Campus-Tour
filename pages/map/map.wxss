@@ -1,0 +1,137 @@
+/* pages/lbsIndex/lbsIndex.wxss */
+
+/* 顶部地图分类导航 */
+
+.top-lbs {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  min-width: 100%;
+  background:rgb(241, 173, 9);
+  color: rgb(24, 20, 18);
+}
+
+.top-lbs__items{
+  position: relative;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  padding: 0rpx 20rpx;
+  width: 100vw;
+  line-height: 80rpx;
+}
+
+.top-list-item{
+  display: inline-block;
+}
+
+.top-list-item__title {
+  display: inline-block;
+  margin-right: 40rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  font-family: 'iconfont';
+  line-height: 70rpx;
+  height: 70rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  white-space: nowrap;
+  font-weight: 200;
+}
+
+.active-top-border {
+  border-bottom: 4rpx solid #ffffff;
+}
+
+
+map {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 80rpx;
+  left: 0;
+  right: 0;
+  bottom: 69rpx;
+}
+
+.map--has-merchant-list {
+  bottom: 399rpx;
+}
+
+.lbs-merchants {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  background: #fff;
+}
+
+.lbs-merchants.merchants-items-hidden {
+  bottom: 0;
+}
+
+.lbs-merchants__record {
+  letter-spacing: 10rpx;
+  border-bottom: 1rpx solid #eee;
+  width: 100vw;
+  padding: 20rpx 0;
+  text-align: center;
+  font-size: 24rpx;
+  color: rgb(24, 20, 18);
+}
+
+.lbs-merchants__toggle {
+  font-size: 20rpx;
+  display: inline-block;
+}
+
+.lbs-merchants__items {
+  position: relative;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  padding: 20rpx 20rpx;
+  width: 100vw;
+}
+
+.list-item,
+.list-item__img {
+  display: inline-block;
+}
+
+.list-item {
+  margin-right: 20rpx;
+}
+
+.list-item__title {
+  display: block;
+  width: 280rpx;
+  box-sizing: border-box;
+  margin-top: 10rpx;
+  text-align:center;
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+  line-height: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  white-space: nowrap;
+  font-weight: 200;
+}
+
+.list-item__img {
+  box-sizing: content-box;
+  width: 280rpx;
+  height: 198rpx;
+  line-height: 0;
+  background-color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.active-merchant-border {
+  border-top: 8rpx solid rgb(241, 173, 9);
+}

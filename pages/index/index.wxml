@@ -1,0 +1,16 @@
+<!--index.wxml-->
+
+<view class='index_bg'> 
+    <image src = "../../images/UI-03.png" class='indexbg' mode='scaleToFill'></image>
+</view>
+
+<view class='container'>
+
+  <view>
+    <button class='btn1' bindtap='onTap1' border-weight='3px'>校园简介</button>
+  </view>
+
+  <view>
+    <button class='btn2' bindtap='onTap2'>校园导览</button>
+  </view>
+</view>
